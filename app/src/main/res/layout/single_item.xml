@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    tools:ignore="ExtraText">
+    android:id="@+id/main_container">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/stName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sadun"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            tools:ignore="Suspicious0dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/phNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0774873547"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            tools:ignore="Suspicious0dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Uluwitike,Galle"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            tools:ignore="Suspicious0dp">
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
